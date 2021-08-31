@@ -1,0 +1,92 @@
+.body-container {
+    margin-top: 60px;
+    padding-bottom:40px;
+}
+
+.welcome-page {
+    li {
+        list-style: none;
+        padding: 4px;
+    }
+}
+
+.logged-out-page {
+    iframe {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+
+.grants-page {
+    .card {
+        margin-top: 20px;
+        border-bottom: 1px solid lightgray;
+
+        .card-title {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            font-size: 120%;
+            font-weight: bold;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    }
+}
+
+
+.order-create-section-title {
+    margin-left: -15px;
+    text-transform: uppercase;
+}
+
+.register-container {
+    min-height: 70vh;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.order-create-section-title {
+    margin-left: -15px;
+    text-transform: uppercase;
+}
+.text-danger {
+    color: #fb0d0d;
+    font-size: 12px;
+}
+
+.form-horizontal h4 {
+    margin-top: 30px;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0px !important;
+}
+
+.form-label {
+    text-transform: uppercase;
+    font-weight: normal !important;
+    text-align: left;
+    margin-bottom: 10px !important;
+    color: #404040;
+}
+
+.form-input {
+    border-radius: 0;
+    padding: 10px;
+    height: 45px;
+}
+
+.form-input-small {
+    max-width: 100px !important;
+}
+
+.form-control:focus {
+    border-color: #83d01b;
+}
